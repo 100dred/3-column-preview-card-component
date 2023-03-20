@@ -1,0 +1,140 @@
+body {
+    background-color: #F7F1E5;
+    height: 110vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 32rem;
+}
+
+.left-container {
+    background-color: #E38B29;
+    padding: 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.sedans {
+    color: white;
+    font-size: 2rem;
+}
+.Sedans-p {
+    color: white;
+    line-height: 1.5rem;
+    width: 11.5rem;
+}
+.sedans-button {
+    box-sizing: border-box;
+    border-color: white;
+    border-style: solid;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: #E38B29;
+    background-color: white;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.sedans-button:hover {
+    background-color: #E38B29;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.mid-container {
+    background-color: #0D7377;
+    padding: 3rem;
+}
+
+.suvs {
+    color: white;
+    font-size: 2rem;
+}
+
+.suvs-p {
+    color: white;
+    line-height: 1.5rem;
+    width: 11.5rem;
+}
+
+.suvs-button {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: #0D7377;
+    background-color: white;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.suvs-button:hover {
+    background-color: #0D7377;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.right-container {
+    background-color: #004445;
+    padding: 3rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.luxury {
+    color: white;
+    font-size: 2rem;
+}
+
+.luxury-p {
+    color: white;
+    line-height: 1.5rem;
+    width: 11.5rem;
+}
+
+.luxury-button {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: #004445;
+    background-color: white;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.luxury-button:hover {
+    background-color: #004445;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 0.8rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
